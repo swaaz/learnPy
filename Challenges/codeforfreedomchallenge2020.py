@@ -33,7 +33,7 @@ input_string = []
 output_string = []
 output_string = []
 number = 0
-    
+#function to compare    
 def compute():
     global output_string
     for x in range(number):
@@ -45,7 +45,7 @@ def compute():
         else:
             output_string[a]=input_string[x].lower()
             
-            
+#main function            
 def main():
     global number
     number=int(input())
@@ -59,5 +59,5 @@ def main():
     compute()
     for x in output_string:
         print(x)
-        
+#invoking main function        
 main()
