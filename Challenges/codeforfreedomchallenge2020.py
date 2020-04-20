@@ -31,8 +31,8 @@
 input_string_position = []
 input_string = []
 output_string = []
-output_string = []
 number = 0
+
 #function to compare    
 def compute():
     global output_string
@@ -55,7 +55,7 @@ def main():
     for x in range(number):
         y=input()
         input_string.append(y)
-        output_string.append(y)
+        #output_string.append(y)
     compute()
     for x in output_string:
         print(x)
