@@ -5,3 +5,4 @@
 python3 program.py
 ```
 ### Logic 
+![Screenshot from 2020-04-23 01-30-50](https://user-images.githubusercontent.com/42874695/80029548-8bcc3200-8504-11ea-986a-668aa77a6d1e.png)
