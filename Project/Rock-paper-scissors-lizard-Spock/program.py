@@ -3,7 +3,6 @@ import sys
 import random
 #function which convert name to number
 def name_to_number(name):
-   
     if name.lower() == "rock":
         return 0
     elif name.lower() == "spock":
@@ -14,6 +13,10 @@ def name_to_number(name):
         return 3
     elif name.lower() == "scissors":
         return 4
+    else:
+        print()
+        print("------Invalid input!------")
+        sys.exit()
 #function which converts number to name
 def number_to_name(number):
     if number == 0:
@@ -33,8 +36,8 @@ def check(player_choice):
     Player_number = name_to_number(player_choice)
     Comp_number=random.randrange(0,5)
     Comp_name = number_to_name(Comp_number)
-    print ("Computer Chooses",Comp_name)
-    x=(Player_number - Comp_number) % 5 #logic to compute winner
+    print ("Computer Chooses : ",Comp_name)
+    x=(Comp_number - Player_number) % 5 #logic to compute winner
     if x==0:
         print ("-----Tie!------")
     elif x==1 or x==2:
@@ -57,4 +60,3 @@ def main():
             sys.exit()
 #function call          
 main()
-
