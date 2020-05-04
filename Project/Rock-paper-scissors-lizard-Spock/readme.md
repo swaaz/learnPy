@@ -1,6 +1,8 @@
 # Rock-Paper-Scissors-Lizard-Spock
 ## Mini game which takes choice from user and randomly generates another choice and will compare the choices and decides the winner!
-### To run the program
+### To run the program online
+to run play this game [click here](https://repl.it/@swaaz/Rock-paper-scissors-lizard-Spock)
+### To run the program offline
 ```
 python3 program.py
 ```
